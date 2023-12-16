@@ -1,0 +1,7 @@
+name: "uniswap_v3_positions"
+
+profile: "uniswap_v3_positions"
+
+models:
+  uniswap_v3_positions:
+    materialized: table

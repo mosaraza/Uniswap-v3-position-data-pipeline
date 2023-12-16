@@ -1,0 +1,12 @@
+uniswap_v3_positions:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      keyfile: /usr/local/airflow/include/gcp/service_account.json
+      project: spock-main
+      dataset: uniswap_v3_positions
+      threads: 1
+      timeout_seconds: 500
+      location: US

@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: uniswap_v3_positions
+    database: spock-main
+
+    tables:
+      - name: blocks
+      - name: transactions
+      - name: logs
+      - name: traces
+      - name: tokens
+      - name: filtered_logs
+      - name: increase_liquidity_logs
+      - name: decrease_liquidity_logs
+      - name: positions_calculation_data
